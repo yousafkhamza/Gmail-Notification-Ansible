@@ -6,12 +6,13 @@
 This is an ansible playbook to Send a Email Notification Using Ansible Playbook with the help of a gamil account authentication
 
 ----
-### _Usage_
+### Features 
 
 This Ansible playbook will perform following operations;
 
-- Login Gmail Host
+- Use with any mail host (eg: gmail)
 - Send email notfication to recepient address which we set.
+- Can setup a notification from playbook side on CI/CD time
 
 ----
 ## How to Use
