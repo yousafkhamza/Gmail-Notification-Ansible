@@ -1,0 +1,15 @@
+---
+- name: Sending email using Ansible
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: "Notification Email"
+      mail:
+        host: smtp.gmail.com
+        port: 587
+        username: "username@gmail.com"
+        password: "email password"
+        to: Yousaf K Hamza <yousaf.k.hamza@gmail.com>
+        subject: Notification-from-Ansible
+        body: 'System {{ ansible_hostname }} has been successfully provisioned.'
+      delegate_to: localhost
