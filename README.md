@@ -21,7 +21,7 @@ With Ansible installed, you are ready to Send Email Using Ansible Playbook via G
 ```sh
 yum install git -y
 amazon-linux-extras install -y ansible2
-git clone https://github.com/yousafkhamza/Gmail-Notification-Ansible.git
+git clone https://github.com/yousafkhamza/Notification-Ansible.git
 cd ansible-email
 ```
 ###  Open the file 'email.yml' and update the Email login credentials and recipiant address which you need.
